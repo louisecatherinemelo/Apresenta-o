@@ -1,0 +1,140 @@
+body {
+	padding: 20px;
+	padding-bottom: 500px;
+	background-color: #f1e3d3;
+}
+
+section {
+	background: white;
+	border-radius: 20px;
+	padding: 20px;
+	width: 1750px;
+	margin: auto;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.411);
+}
+
+
+
+.rodape {	
+	position: fixed;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	padding: 10px;
+	margin-bottom: 30mm;
+	background-color: #b38d97;
+	border-bottom: 1px solid #b38d97;
+	color: rgb(17, 16, 17);
+	display: block;
+	
+}
+	
+	
+
+/*Classes e Ids*/
+h1 {
+	color: #424b54;
+	font-size: 60px;
+	font-family: urier, monospace;
+	font-weight: 150px;
+}
+
+h2 {
+	color: #424b54;
+	font-size: 25px;
+	font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, serif;
+	font-weight: 300px;
+}
+
+h3 {
+	color: #424b54;
+	font-size: 40px;
+	font-family: New Century Schoolbook, TeX Gyre Schola, serif;
+}
+
+h5 {
+	color: #ffffff;
+	font-size: 25px;
+	font-family: Perpetua, Baskerville, Big Caslon, Palatino Linotype, Palatino, serif;
+	font-weight: 300px;
+	
+
+}
+/*Botões*/
+
+.decoration {
+	text-decoration: none;
+}
+
+.btn {
+	background-color: #d5aca9;
+	border: 10xp solid black;
+	border-radius: 10px;
+	color: white;
+	text-decoration: none;
+	width: 100px;
+	padding: 20px 50px;
+	text-align: center;
+	margin: 20px;
+	
+}
+
+a {
+	font-family: urier, monospace;
+	font-size: 25px;
+}
+.btn:hover {
+	background-color: #fcb9b2;
+}
+
+.posicao-botoes {
+	padding: 45px;
+	position: fixed;
+    
+}
+
+
+/* Display*/
+
+.bloco{
+	display: block;
+}
+
+.inline{
+	width: 50px;
+	height: 50px;
+	background-color: black;
+	margin: 5px;
+	display: inline-block;
+}
+
+
+.elemento-fixo{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	padding: 5px;
+	text-align: right;
+	margin-right: auto;
+	background-color: #b38d97;
+	border-bottom: 2px solid #b38d97;
+	color: white;
+	display: block;
+}
+
+/* Logo*/
+
+.imagem {
+	background:transparent url("/Área de Trabalho/html/imagens/coracao.jpg"); /* Insere a imagem */
+	width: 150px;/* Faz a largura ficar igual a da largura da imagem de exemplo */
+	height: 150px;/* Faz a altura ficar igual a da altura da imagem de exemplo */
+}
+.posicao-imagem {
+	position: fixed;
+	top: 80px;
+	right: 0;
+	width: 100px;
+	height: 100px;
+	border: 3px solid #73AD21;
+  }
